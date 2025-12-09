@@ -1,7 +1,6 @@
 package com.example.UberSocket.client;
 
 import com.example.UberSocket.RideAcceptanceRequest;
-
 import com.example.UberSocket.RideAcceptanceResponse;
 import com.example.UberSocket.RideServiceGrpc;
 import io.grpc.ManagedChannel;

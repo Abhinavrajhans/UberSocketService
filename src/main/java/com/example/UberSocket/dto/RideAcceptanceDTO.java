@@ -9,6 +9,6 @@ import lombok.*;
 @NoArgsConstructor
 @Builder
 public class RideAcceptanceDTO {
-    private Integer driverId;
-    private Integer bookingId;
+    private Long driverId;
+    private Long bookingId;
 }

@@ -2,8 +2,6 @@ package com.example.UberSocket.dto;
 
 import lombok.*;
 
-import java.util.List;
-
 
 @Getter
 @Setter
@@ -13,7 +11,7 @@ import java.util.List;
 public class DriverNotificationDTO {
     private String pickUpLocationLatitude;
     private String pickUpLocationLongitude;
-    private Integer bookingId;
+    private Long bookingId;
 }
 
 

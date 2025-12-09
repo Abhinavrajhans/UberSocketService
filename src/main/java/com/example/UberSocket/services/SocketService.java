@@ -21,7 +21,7 @@ public class SocketService {
                 .bookingId(rideRequestDTO.getBookingId())
                 .build();
 
-        for(Integer driverId : rideRequestDTO.getDriverIds()) {
+        for(Long driverId : rideRequestDTO.getDriverIds()) {
             messagingTemplate.convertAndSend("/topic/new-ride/"+driverId,driverNotificationDTO);
         }
     }

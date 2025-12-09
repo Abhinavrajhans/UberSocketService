@@ -13,6 +13,6 @@ public class RideRequestDTO {
 
     private String pickUpLocationLatitude;
     private String pickUpLocationLongitude;
-    private Integer bookingId;
-    private List<Integer> driverIds;
+    private Long bookingId;
+    private List<Long> driverIds;
 }
